@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float and textAlignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: salmon;
+        }
+
+        .item {
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(241, 18, 10);
+        }
+
+        #fruit {
+
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 100%;
+        }
+        p,h3{
+            text-align: justify;
+        }
+        h1{
+            margin: auto;
+            width: 455px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h3>fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, sequi ut, iure
+                hic molestiae inventore in quidem commodi labore error laboriosam quae aliquid.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quia architecto, dolorum soluta, a
+                corporis deserunt voluptatibus ex ea saepe labore quisquam culpa dicta, obcaecati sit minima nihil
+                facere omnis quis eius voluptatum nesciunt!
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis iste,
+                numquam eos quaerat nesciunt, non rem similique esse alias magnam velit dolorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi similique est quibusdam iste. Voluptates quos, officiis nemo aliquam corrupti consectetur! Perferendis expedita, modi deserunt natus voluptate, assumenda id, vel beatae obcaecati tempora corporis accusamus.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum debitis
+                dolor accusamus aliquid explicabo animi accusantium inventore, nihil in natus illo quos minima.</p>
+
+        <div id="glass" class="item">
+            <h3>glass</h3>
+            <p id="glassparapara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum debitis
+                dolor accusamus aliquid explicabo animi accusantium inventore, nihil in natus illo quos minima.</p>
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
